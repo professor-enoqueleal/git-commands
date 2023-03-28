@@ -11,16 +11,24 @@
 ```bash
 # configura usuário
 $ git config user.name "Fulano de Tal"
+```
 
+```bash
 # configura e-mail
 $ git config user.email fulanodetal@exemplo.br
+```
 
+```bash
 # exibe as configurações atuais
 $ git config --list
+```
 
+```bash
 # inicializa um novo repositório git no diretório especificado
 $ git init
+```
 
+```bash
 # faz o clone de um repositório existe para sua workstation repository
 $ git clone
 ```

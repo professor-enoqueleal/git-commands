@@ -10,76 +10,95 @@
 
 ```bash
 # configura usuário
-$ git config user.name "Fulano de Tal"
+git config user.name "Fulano de Tal"
 ```
 
 ```bash
 # configura e-mail
-$ git config user.email fulanodetal@exemplo.br
+git config user.email fulano-de-tal@exemplo.br
 ```
 
 ```bash
 # exibe as configurações atuais
-$ git config --list
+git config --list
 ```
 
 ```bash
 # inicializa um novo repositório git no diretório especificado
-$ git init
+git init
 ```
 
 ```bash
 # faz o clone de um repositório existe para sua workstation repository
-$ git clone
+git clone
 ```
 
 ### Basic Snapshotting
 ```bash
 # mostra o status do seu repositório local
-$ git status
+git status
+```
 
+```bash
 # adiciona arquivos ao index
-$ git add
+git add file-name
+```
 
+```bash
 # faz o registro do/dos arquivo/arquivos adicionado no index contendo os metadados
-$ git commit
+git commit
+```
 
+```bash
 # mostra quais foram as alterações dentro do arquivo
-$ git diff
-
+git diff
 ```
 
 ### Branching and Merging
 
 ```bash
 # listar, criar ou deletar branch
-$ git branch
+git branch
+```
 
+```bash
 # trocar de branch ou restaurar os arquivos que foram alterados
-$ git checkout
+git checkout
+```
 
+```bash
 # faz a junção de duas ou mais histórias / branch
-$ git merge
+git merge
+```
 
+```bash
 # mostra os logs de commits
-$ git log
+git log
+```
 
+```bash
 # Guarde as alterações em um diretório de trabalho temporário
-$ git stash
+git stash
 ```
 
 ### Sharing and Updating Projects
 
 ```bash
 # Atualize as referências locais com base no repositório remoto
-$ git fetch
+git fetch
+```
 
+```bash
 # Busca as alterações do repositório remoto e trás para o repositório legal
-$ git pull
+git pull
+```
 
+```bash
 # Envia as alterações do repositório local para o repositório remoto
-$ git push
+git push
+```
 
+```bash
 # Gerenciar reposotórios rastreados
-$ git remote
+git remote
 ```

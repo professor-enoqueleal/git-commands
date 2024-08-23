@@ -10,12 +10,12 @@
 
 ```bash
 # configura usuário
-git config user.name "Fulano de Tal"
+git config --global user.name "Fulano de Tal"
 ```
 
 ```bash
 # configura e-mail
-git config user.email fulano-de-tal@exemplo.br
+git config --global user.email fulano-de-tal@exemplo.br
 ```
 
 ```bash
